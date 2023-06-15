@@ -13,16 +13,16 @@
 }
 
 html{
-    height: 100vh;
     height: 100svh;
     height: 100dvh;
 }
 
 body{
-    height: 100vh;
     height: 100svh;
     height: 100dvh;
 }
+
+/* Sections General */
 
 .section-title {
     height: 40px;
@@ -50,4 +50,29 @@ body{
     height: calc(100vh - 160px);
     overflow-y: scroll;
     padding: 16px;
+}
+
+
+/* #Projects */
+
+/* #section2{}
+
+#title2{}
+
+#section2-content{}
+ */
+#section2-grid{
+    margin: 20px 0;
+    display: grid;
+    gap: 40px 20px;
+    grid-template-columns: repeat(auto-fill, minmax(360px,1fr));
+}
+
+.grid-card{
+    background-color: orangered;
+    height: 260px;
+    width: 340px;
+    border: 1px black solid;
+    margin: 0 auto;
+    padding: relative;
 }
